@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+eframe = "0.29.1"
+egui = { version = "0.29.1", features = ["color-hex"] }
+reqwest = "0.12.8"
+rhai = "1.19.0"
+serde = "1.0.210"
+tokio = { version = "1.40.0", features = ["rt-multi-thread"] }
